@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: cornflowerblue;
+}
+       #crad{
+        height: 350px;
+        width: 250px;
+        border-radius: 10px;
+        background-color:white;
+        padding: 30px;
+        text-align: center;
+        }
+        img{
+            width:100%;
+            height:50%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+    }
+    #crad h1{
+        font-size: 30px;
+        margin: 10px 0;
+        font-weight: 800;
+ }
+    #crad h5{
+        font-size: 25px;
+        color: red;
+        margin-bottom: 20px;
+    }
+    #crad button{
+        background-color: cadetblue;
+        color: #fff;
+        font-weight: 700;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 5px;
+    }
+   
+</style>
+</head>
+<body>
+    <div id="crad">
+        <img src="angle priya.webp">
+        <h1>Angle Priya</h1>
+        <h5>Add Friend</h5>
+        <div class="btn-contaner">
+        <button id="add">Add friend</button>
+        
+        </div>
+    </div>
+    <script src="click event.js"></script>
+    
+</body>
+</html>
